@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hadiatma.ramadhan.ramadhanhadiatma_1202144104_modul5.SecondActivity">
+
+    <EditText
+        android:layout_width="@dimen/width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/todo_name"
+        android:textAlignment="center"
+        android:id="@+id/todoname"
+        android:layout_marginTop="@dimen/top"/>
+
+    <EditText
+        android:layout_width="@dimen/width"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/description"
+        android:textAlignment="center"
+        android:id="@+id/description"
+        android:layout_below="@+id/todoname"
+        android:layout_marginTop="@dimen/top10"/>
+
+    <EditText
+        android:layout_width="@dimen/width"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/priority"
+        android:textAlignment="center"
+        android:id="@+id/priority"
+        android:layout_below="@+id/description"
+        android:layout_marginTop="@dimen/top10"
+        android:inputType="number"/>
+
+    <Button
+        android:layout_width="@dimen/width"
+        android:onClick="tambah"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Add Todo"
+        android:id="@+id/buttonadd"
+        android:layout_below="@+id/priority"
+        android:layout_marginTop="@dimen/top10"/>
+
+</RelativeLayout>

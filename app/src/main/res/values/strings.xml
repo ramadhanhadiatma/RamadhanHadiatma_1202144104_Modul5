@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Todo List</string>
+    <string name="SecondActivity">Add Todo</string>
+    <string name="todo_name">Todo Name</string>
+    <string name="description">Description</string>
+    <string name="priority">Priority</string>
+    <string name="action_settings">Setting</string>
+</resources>
